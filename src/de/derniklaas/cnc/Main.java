@@ -1,8 +1,10 @@
 package de.derniklaas.cnc;
 
+import java.security.NoSuchAlgorithmException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchAlgorithmException {
         System.out.print("[If, or else?]: ");
         IfOrElse.run();
         System.out.print("[Modulo]: ");
@@ -23,5 +25,11 @@ public class Main {
         BubbleSort.run();
         System.out.print("[Array Zip]: ");
         ArrayZip.run();
+        System.out.print("[Primzahlen]: ");
+        Primzahlen.run();
+        System.out.print("[Methoden aufrufen]: ");
+        MethodenAufrufen.run();
+        System.out.print("[Fibonacci]: ");
+        Fibonacci.run();
     }
 }
