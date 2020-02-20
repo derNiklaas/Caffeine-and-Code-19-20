@@ -33,5 +33,7 @@ public class Main {
         Fibonacci.run();
         System.out.print("[Klasse implementieren]: ");
         KlasseImplementieren.run();
+        System.out.print("[Collatz Problem]: ");
+        CollatzProblem.run();
     }
 }
