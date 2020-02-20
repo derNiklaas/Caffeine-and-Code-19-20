@@ -39,5 +39,7 @@ public class Main {
         GCD.run();
         System.out.print("[Zahlengenerierung]: ");
         Zahlengenerierung.run();
+        System.out.print("[Münzwechselproblem]: ");
+        Muenzwechsel.run();
     }
 }
