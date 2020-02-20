@@ -21,5 +21,7 @@ public class Main {
         ZifferSummieren.run();
         System.out.print("[Bubblesort]: ");
         BubbleSort.run();
+        System.out.print("[Array Zip]: ");
+        ArrayZip.run();
     }
 }
