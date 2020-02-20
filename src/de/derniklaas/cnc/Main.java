@@ -35,5 +35,7 @@ public class Main {
         KlasseImplementieren.run();
         System.out.print("[Collatz Problem]: ");
         CollatzProblem.run();
+        System.out.print("[Größter gemeinsamer Teiler]: ");
+        GCD.run();
     }
 }
