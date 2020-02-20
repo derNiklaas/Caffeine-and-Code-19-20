@@ -31,5 +31,7 @@ public class Main {
         MethodenAufrufen.run();
         System.out.print("[Fibonacci]: ");
         Fibonacci.run();
+        System.out.print("[Klasse implementieren]: ");
+        KlasseImplementieren.run();
     }
 }
