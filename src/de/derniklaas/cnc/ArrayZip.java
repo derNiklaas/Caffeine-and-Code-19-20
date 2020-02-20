@@ -38,8 +38,8 @@ public class ArrayZip {
         int idx = 0;
         for (int i : zip(l, r)) {
             check += i * i * (i + idx);
-            System.out.format(" %d", i);
+            //System.out.format(" %d", i);
         }
-        System.out.format("\n\nFlag: %d\n", check);
+        System.out.format("%d\n", check);
     }
 }

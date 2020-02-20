@@ -17,6 +17,6 @@ public class Zahlengenerierung {
             //System.out.format("(c=%d) X_%d \t= %d\n", input[i + 1], input[i], res);
         }
 
-        System.out.format("Flag: %d\n", check);
+        System.out.format("%d\n", check);
     }
 }

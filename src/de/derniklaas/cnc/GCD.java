@@ -14,9 +14,9 @@ public class GCD {
         for (int i = 0; i + 1 < input.length; i += 2) {
             int res = gcd(input[i], input[i + 1]);
             check += (res * i * res * i * res);
-            System.out.format("gcd(%d,%d) = \t\t%d\n", input[i], input[i + 1], res);
+            //System.out.format("gcd(%d,%d) = \t\t%d\n", input[i], input[i + 1], res);
         }
 
-        System.out.format("\nFlag: %d\n", check);
+        System.out.format("%d\n", check);
     }
 }

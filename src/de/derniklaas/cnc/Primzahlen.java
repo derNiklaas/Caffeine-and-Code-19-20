@@ -11,12 +11,12 @@ public class Primzahlen {
     private static final int BOUND = 100000;
 
     public static void run() throws NoSuchAlgorithmException {
-        System.out.println("> Calculating prime numbers");
+        //System.out.println("> Calculating prime numbers");
         int[] primes = getPrimes();
-        System.out.print("Highest: ");
-        System.out.println(primes[primes.length - 1]);
+        //System.out.print("Highest: ");
+        //System.out.println(primes[primes.length - 1]);
 
-        System.out.println("> Calculating flag");
+        //System.out.println("> Calculating flag");
         byte[] bytes = new byte[primes.length * 4];
         for (int i = 0; i < primes.length; i++) {
             bytes[i * 4 + 3] = (byte) ((primes[i]) & 0xFF);

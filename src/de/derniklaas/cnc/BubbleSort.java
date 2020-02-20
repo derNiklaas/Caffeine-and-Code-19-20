@@ -34,6 +34,6 @@ public class BubbleSort {
             check = ((long) Math.pow(check - (i + count), 2)) % 100000;
         }
 
-        System.out.format("Flag: %d\n", check);
+        System.out.format("%d\n", check);
     }
 }
