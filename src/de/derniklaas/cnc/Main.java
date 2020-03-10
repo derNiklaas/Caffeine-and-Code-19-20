@@ -41,5 +41,13 @@ public class Main {
         Zahlengenerierung.run();
         System.out.print("[Münzwechselproblem]: ");
         Muenzwechsel.run();
+        System.out.print("[Commoncase]: ");
+        Commoncase.run();
+        System.out.print("[Füge dem Baum hinzu]: ");
+        FuegeDemBaumHinzu.run();
+
+        //System.out.print("[Virtual Machine]: ");
+        //VM.run();
     }
 }
+
