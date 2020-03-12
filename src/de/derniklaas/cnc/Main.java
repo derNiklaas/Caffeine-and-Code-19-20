@@ -47,6 +47,8 @@ public class Main {
         FuegeDemBaumHinzu.run();
         System.out.print("[Baumhöhe]: ");
         Baumhoehe.run();
+        System.out.print("[Baumgröße]: ");
+        Baumgroeße.run();
 
 
         //System.out.print("[Virtual Machine]: ");
