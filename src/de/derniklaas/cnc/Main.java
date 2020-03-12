@@ -45,6 +45,9 @@ public class Main {
         Commoncase.run();
         System.out.print("[Füge dem Baum hinzu]: ");
         FuegeDemBaumHinzu.run();
+        System.out.print("[Baumhöhe]: ");
+        Baumhoehe.run();
+
 
         //System.out.print("[Virtual Machine]: ");
         //VM.run();
